@@ -11,6 +11,8 @@ function Index() {
     <div className="pagina">
       <header>
         <div className="titulo">
+        <h1>Página principal</h1>
+
           <div className="top-bar">
             {sesionActiva ? (
               <>
@@ -28,13 +30,12 @@ function Index() {
               </div>
             )}
           </div>
-          <h1>Página principal</h1>
         </div>
       </header>
 
       <main className="contenido">
         <section className="titulo2">
-          <h2>Checa nuestros productos!!</h2>
+          <h2>¡¡Checa nuestros productos!!</h2>
           <div className="accionesInferiores">
             <Link className="detallito" to="/items">Ver mas productos</Link>
             <Link className="contacto" to="/contacto">Contactanos</Link>
@@ -47,7 +48,12 @@ function Index() {
       </main>
 
       <footer className="patas">
-        <p>Todos los derechos reservados al equipo de la materia de Programación Web al lado del servidor</p>
+        <p>Todos los derechos reservados al equipo de la materia de Programación Web al lado del Cliente</p> 
+        <p> Carrillo Avilez Jesús Arturo</p>
+        <p> Gomez Cazares Sergio Antonio</p>
+        <p> Romero Corral Carlos Alberto</p>
+        <p> Zavala Martinez Bryan Tadeo</p>
+
       </footer>
     </div>
   );

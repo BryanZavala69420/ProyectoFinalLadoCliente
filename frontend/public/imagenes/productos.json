@@ -153,6 +153,19 @@
         "nombre": "Touhou Eiyashou: Imperishable Night",
         "precio": 800,
         "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/Th08cover.jpg"
+    },
+    {
+        "id": 21,
+        "nombre": "Fortnite",
+        "precio": 1800,
+        "imgUrl": "https://m.media-amazon.com/images/I/81PTIubiGML._AC_SL1481_.jpg"
+    },
+    {
+        "id": 22,
+        "nombre": "Valorant",
+        "precio": 1800,
+        "imgUrl": "https://gamelust.com/wp-content/uploads/2020/10/Valorant_boxart.png"
     }
+    
     
     ]

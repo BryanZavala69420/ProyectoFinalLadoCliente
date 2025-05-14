@@ -153,6 +153,16 @@
         "nombre": "Touhou Eiyashou: Imperishable Night",
         "precio": 800,
         "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/Th08cover.jpg"
+    },
+    
+
+    {
+        "id": 21,
+        "nombre": "Fortnite",
+        "precio": 1800,
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/en/5/59/Th08cover.jpg"
     }
     
+
+
     ]

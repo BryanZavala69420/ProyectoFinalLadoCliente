@@ -12,7 +12,7 @@ import PaginaVerItems from "./jsx/PaginaVerItems";
 import MeteloAlCarrazo from "./jsx/Carrito";
 import Voidtexto from "./jsx/CarritoVoidtexto";
 
-
+import Keioncitas from "./jsx/K-on";
 
 
 
@@ -35,6 +35,8 @@ function App() {
         <Route path="/items" element={<PaginaVerItems/>}> </Route>
         {/* ruta para el carrito */}
         <Route path="/carrito" element={<MeteloAlCarrazo/>}></Route>
+
+        <Route path="/keioncitas" element={<Keioncitas/>}></Route>
 
       </Routes>
 
