@@ -14,6 +14,8 @@ import Voidtexto from "./jsx/CarritoVoidtexto";
 
 import Keioncitas from "./jsx/K-on";
 
+import Tengohambrewe from "./patrocinio/Tengohambrewe";
+
 
 
 function App() {
@@ -35,9 +37,11 @@ function App() {
         <Route path="/items" element={<PaginaVerItems/>}> </Route>
         {/* ruta para el carrito */}
         <Route path="/carrito" element={<MeteloAlCarrazo/>}></Route>
+        {/* ruta para k-on */}
 
         <Route path="/keioncitas" element={<Keioncitas/>}></Route>
-
+        {/* ruta para los patrocinadores */}
+        <Route path="/patrocinadores" element={<Tengohambrewe/>}></Route>
       </Routes>
 
     </BrowserRouter>

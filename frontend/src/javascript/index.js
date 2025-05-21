@@ -39,6 +39,9 @@ function Index() {
           <div className="accionesInferiores">
             <Link className="detallito" to="/items">Ver mas productos</Link>
             <Link className="contacto" to="/contacto">Contactanos</Link>
+            <Link className="odiomivida" to="/patrocinadores"> Nuestros patrocinadores </Link>
+            <Link className="keion" to="/keioncitas"> Un episodio de K-ON! </Link>
+
           </div>
         </section>
 

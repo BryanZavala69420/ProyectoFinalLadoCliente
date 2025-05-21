@@ -13,12 +13,6 @@ function ListarItems(){
                     return <Item key={producto.id} {...producto} /> 
                 })
             }
-
-
-
-
-
-            
         </div>
     )
 }

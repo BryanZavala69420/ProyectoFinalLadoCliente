@@ -82,7 +82,7 @@ function Contacto() {
               className='controles'
             />
 
-            <p>Número de contacto: +52 66 7775 1417</p>
+            <p>Número de contacto: +52 66 7775 1418</p>
             <button className="botonito" type="submit">Enviar</button>
           </form>
         </div>

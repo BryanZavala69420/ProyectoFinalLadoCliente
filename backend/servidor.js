@@ -45,8 +45,8 @@ app.post("/contacto", (req, res) => {
     // Si el correo existe, insertar el contacto
     BaseDeDatos.query(consultaInsertar, [correo, contacto], (err, data) => {
       if (err) {
-        console.error("❌ Error al guardar el contacto:", err);
-        return res.status(500).json({ status: "fail", mensaje: "Error al guardar el contacto" });
+        console.error("❌ Error al guardar el correo:", err);
+        return res.status(500).json({ status: "fail", mensaje: "Error al guardar el correo" });
       }
 
       return res.status(200).json({ status: "ok", mensaje: "Contacto guardado correctamente" });
@@ -114,6 +114,10 @@ app.post("/acceder", (req, res) => {
       return res.status(401).json({ status: "fail", mensaje: "Correo no encontrado" });
     }
   });
+
+ 
+
+  
 });
 
 
